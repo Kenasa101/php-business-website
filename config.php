@@ -11,7 +11,7 @@ class Database
         $password = "";
         $dbname = "business_website";
 
-        $this->conn = new mysqli($servername, $username, $password, $dbname);
+        $this->conn = new mysqli($servername, $kenesa101, $, $database);
 
         if ($this->conn->connect_error) {
             die("Connection failed: " . $this->conn->connect_error);
